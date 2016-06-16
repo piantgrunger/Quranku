@@ -27,6 +27,10 @@ class ComposerStaticInit4054995c0ecb3666eaef5f48b02adb3b
         array (
             'cebe\\markdown\\' => 14,
         ),
+        'b' => 
+        array (
+            'bigpaulie\\social\\share\\' => 23,
+        ),
         'F' => 
         array (
             'Faker\\' => 6,
@@ -69,6 +73,10 @@ class ComposerStaticInit4054995c0ecb3666eaef5f48b02adb3b
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'bigpaulie\\social\\share\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/bigpaulie/yii2-social-share/src',
         ),
         'Faker\\' => 
         array (

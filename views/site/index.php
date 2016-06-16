@@ -27,7 +27,7 @@ $this->title = 'Al Quran Online dan Terjemahannya';
         <?php 
         echo Nav::widget([
         'items' => [
-            ['label' => "$Surah->surat_indonesia ($Surah->jumlah_ayat Ayat)", 'url' => ['site/surah','noSurah'=>$Surah->index]],
+            ['label' => "$Surah->surat_indonesia - ' $Surah->arti ' ($Surah->jumlah_ayat Ayat)", 'url' => ['site/surah','noSurah'=>$Surah->index]],
             
         ]]);
         ?>

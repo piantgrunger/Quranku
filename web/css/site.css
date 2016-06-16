@@ -2,6 +2,12 @@ html,
 body {
     height: 100%;
 }
+ 
+@font-face {
+  font-family: 'Uthmani';
+  src : url('http://localhost/quranku/web/assets/UthmanicHafs1 Ver09.otf') format('truetype');
+}
+
 
 .wrap {
     min-height: 100%;
@@ -88,4 +94,17 @@ a.desc:after {
     border-left: 3px solid #eed3d7;
     padding: 10px 20px;
     margin: 0 0 15px 0;
+}
+
+h3{
+  background:#222;
+  color:#f9f9f9;
+   padding:5px;
+}
+.arabic{
+    font-family: 'Uthmani', serif;
+    font-size: 28px; font-weight: normal;
+    direction:rtl;
+    padding : 0 5px;
+    margin : 0;
 }
