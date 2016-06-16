@@ -50,12 +50,30 @@ class SiteController extends Controller
         ];
     }
 
-    public function actionIndex()
+    public function actionIndex($q="")
     {
-        $Query = DaftarSurat::find();
-        $pagination = new Pagination(['defaultPageSize'=>10,'totalCount'=>$Query->count(),]);
-        $DaftarSurat = $Query->orderBy('index')->offset($pagination->offset)->limit($pagination->limit)->all();
-        return $this->render('index',['DaftarSurat'=>$DaftarSurat,'pagination'=>$pagination,]);
+        if ($q=="")
+        {     
+         $Query = DaftarSurat::find();
+         $pagination = new Pagination(['defaultPageSize'=>10,'totalCount'=>$Query->count(),]);
+         $DaftarSurat = $Query->orderBy('index')->offset($pagination->offset)->limit($pagination->limit)->all();
+         return $this->render('index',['DaftarSurat'=>$DaftarSurat,'pagination'=>$pagination,]);
+        }
+        else {
+          $Query = Quran::find()
+                ->select('quran.*,quranindonesia.AyahText as Indo,DaftarSurat.surat_indonesia')
+                ->innerJoin('quranindonesia','quranindonesia.SuraID=quran.SuraID and quranindonesia.VerseID=quran.VerseID ')
+                 ->innerjoin ('DaftarSurat','DaftarSurat.Index=quran.SuraID')   
+                ->filterWhere(['Like','quranindonesia.AyahText',  $q]);
+      
+          
+        $pagination =new Pagination(['defaultPageSize'=>20,'totalCount'=>$Query->count(),]);
+        $DaftarAyat = $Query->orderBy('verseID')->offset($pagination->offset)->limit($pagination->limit)->all();
+        $ayat=0;
+        return $this->render('surah',['JumlahAyat'=>$ayat,'NamaSurat'=>"",'Criteria'=>$q,'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
+            
+            
+        }
     }
     
     

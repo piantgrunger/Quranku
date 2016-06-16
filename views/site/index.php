@@ -10,7 +10,17 @@ use app\controllers\SiteController;
 
 $this->title = 'Al Quran Online dan Terjemahannya';
 ?>
+
+<form method="get">
+<input type="search" placeholder="search" name="q"
+
+value="<?=isset($_GET['q']) ? Html::encode($_GET['q']) : '' ;
+
+?>" />
+<input type="submit" value="cari" />
+</form>
 <div class="site-index">
+    
 
     <div class="jumbotron">
         <h1>Selamat Datang Di Quranku</h1>

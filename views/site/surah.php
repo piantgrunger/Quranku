@@ -22,7 +22,12 @@ function format_arabic_number($number){
 <div class="site-index">
 
     <div class="jumbotron">
+       <?php if ($NamaSurat!=""){  ?>
         <h2>Al Quran <?=$NamaSurat;?>( <?=$JumlahAyat;?> Ayat ) </h2>
+       <?php } else {   ?>
+         <h2> Pencarian : <?=$Criteria;?> </h2>
+        
+       <?php } ?>
     </div>  
         
         <h2>           
@@ -33,7 +38,15 @@ function format_arabic_number($number){
             <h3 class="arabic">
         <?php echo "<p align='Right'> ".format_arabic_number($Ayat->VerseID)."  $Ayat->AyahText  </p>     "; ?>
             </h3>
-        <?php echo "<p align='Left'>$Ayat->VerseID  $Ayat->Indo     </p>"; ?>
+        <?php echo "<p align='Left'>$Ayat->VerseID  $Ayat->Indo    ";
+                       if ($Ayat->surat_indonesia!=""){
+                           echo "(  $Ayat->surat_indonesia    :  $Ayat->VerseID    )";
+                           
+                       }
+            
+               echo "</p>";
+                
+                ; ?>
         <br>
                 
         <?php
