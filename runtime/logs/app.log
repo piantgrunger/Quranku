@@ -8532,3 +8532,209 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1466069441.126
     'REQUEST_TIME' => 1466069441
 ]
+2016-06-17 09:43:40 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Quran::VErseID' in C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('VErseID')
+#1 C:\xampp\htdocs\Quranku\views\site\surah.php(41): yii\db\BaseActiveRecord->__get('VErseID')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('surah', Array, Object(app\controllers\SiteController))
+#6 C:\xampp\htdocs\Quranku\controllers\SiteController.php(73): yii\base\Controller->render('surah', Array)
+#7 [internal function]: app\controllers\SiteController->actionIndex('islam')
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-06-17 09:43:40 [::1][-][-][info][application] $_GET = [
+    'q' => 'islam'
+]
+
+$_COOKIE = [
+    '_csrf' => 'fe603103e27867ae1efd7f8450d3e5e57fc64af5b9e9cbb9811ad45d629cdb93a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"40qcl9MlB062QHp8UFgmNaz2egtfzEmm\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=fe603103e27867ae1efd7f8450d3e5e57fc64af5b9e9cbb9811ad45d629cdb93a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2240qcl9MlB062QHp8UFgmNaz2egtfzEmm%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '49648'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=islam'
+    'REQUEST_URI' => '/Quranku/web/?q=islam'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466149420.032
+    'REQUEST_TIME' => 1466149420
+]
+2016-06-17 10:52:32 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: Criteria' in C:\xampp\htdocs\Quranku\views\site\surah.php:41
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\views\site\surah.php(41): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('surah', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\Quranku\controllers\SiteController.php(93): yii\base\Controller->render('surah', Array)
+#6 [internal function]: app\controllers\SiteController->actionSurah('2')
+#7 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('surah', Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/surah', Array)
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-06-17 10:52:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '2'
+]
+
+$_COOKIE = [
+    '_csrf' => 'dd23b94281e20fc34ffca964b967e1114f0ffb4d40eaefa4c22264f7b5866262a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gXEKMUuO6g9-CmKtOwLdGdkLFCrafFyB\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Quranku/web/index.php'
+    'HTTP_COOKIE' => '_csrf=dd23b94281e20fc34ffca964b967e1114f0ffb4d40eaefa4c22264f7b5866262a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gXEKMUuO6g9-CmKtOwLdGdkLFCrafFyB%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '58404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=2'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Fsurah&noSurah=2'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466153551.945
+    'REQUEST_TIME' => 1466153551
+]
+2016-06-17 10:53:00 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: Criteria' in C:\xampp\htdocs\Quranku\views\site\surah.php:41
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\views\site\surah.php(41): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('surah', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\Quranku\controllers\SiteController.php(93): yii\base\Controller->render('surah', Array)
+#6 [internal function]: app\controllers\SiteController->actionSurah('1')
+#7 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('surah', Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/surah', Array)
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-06-17 10:53:00 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => 'dd23b94281e20fc34ffca964b967e1114f0ffb4d40eaefa4c22264f7b5866262a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"gXEKMUuO6g9-CmKtOwLdGdkLFCrafFyB\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Quranku/web/index.php'
+    'HTTP_COOKIE' => '_csrf=dd23b94281e20fc34ffca964b967e1114f0ffb4d40eaefa4c22264f7b5866262a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22gXEKMUuO6g9-CmKtOwLdGdkLFCrafFyB%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '58407'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=1'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Fsurah&noSurah=1'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466153580.415
+    'REQUEST_TIME' => 1466153580
+]

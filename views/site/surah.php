@@ -38,7 +38,7 @@ function format_arabic_number($number){
             <h3 class="arabic">
         <?php echo "<p align='Right'> ".format_arabic_number($Ayat->VerseID)."  $Ayat->AyahText  </p>     "; ?>
             </h3>
-        <?php echo "<p align='Left'>$Ayat->VerseID  $Ayat->Indo    ";
+        <?php echo "<p align='Left'>  $Ayat->VerseID   ".str_replace($Criteria, "<B>$Criteria</B>",$Ayat->Indo)."    ";
                        if ($Ayat->surat_indonesia!=""){
                            echo "(  $Ayat->surat_indonesia    :  $Ayat->VerseID    )";
                            

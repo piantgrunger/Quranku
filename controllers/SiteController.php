@@ -90,7 +90,7 @@ class SiteController extends Controller
         
         $pagination =new Pagination(['defaultPageSize'=>20,'totalCount'=>$Query->count(),]);
         $DaftarAyat = $Query->orderBy('verseID')->offset($pagination->offset)->limit($pagination->limit)->all();
-        return $this->render('surah',['JumlahAyat'=>$ayat,'NamaSurat'=>$NamaSurat,'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
+        return $this->render('surah',['JumlahAyat'=>$ayat,'NamaSurat'=>$NamaSurat,'Criteria'=>"",'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
          
         
     }        

@@ -17,8 +17,13 @@ $this->title = 'Al Quran Online dan Terjemahannya';
 value="<?=isset($_GET['q']) ? Html::encode($_GET['q']) : '' ;
 
 ?>" />
+
+
 <input type="submit" value="cari" />
 </form>
+
+
+
 <div class="site-index">
     
 
