@@ -14,6 +14,8 @@ use app\models\Quran;
 
 class SiteController extends Controller
 {
+    
+
     public function behaviors()
     {
         return [
@@ -66,6 +68,7 @@ class SiteController extends Controller
                  ->innerjoin ('DaftarSurat','DaftarSurat.Index=quran.SuraID')   
                 ->filterWhere(['Like','quranindonesia.AyahText',  $q]);
       
+         
           
         $pagination =new Pagination(['defaultPageSize'=>20,'totalCount'=>$Query->count(),]);
         $DaftarAyat = $Query->orderBy('verseID')->offset($pagination->offset)->limit($pagination->limit)->all();
