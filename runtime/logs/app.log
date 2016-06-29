@@ -12428,3 +12428,2841 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1466582161.957
     'REQUEST_TIME' => 1466582161
 ]
+2016-06-22 11:04:26 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'btn' (T_STRING), expecting ']'' in C:\xampp\htdocs\Quranku\views\site\index.php:25
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-22 11:04:26 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '50524'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466586266.322
+    'REQUEST_TIME' => 1466586266
+]
+2016-06-22 11:07:59 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in C:\xampp\htdocs\Quranku\views\site\index.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\views\site\index.php(20): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\Quranku\controllers\SiteController.php(62): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\SiteController->actionIndex('')
+#7 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-06-22 11:07:59 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '50547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466586479.506
+    'REQUEST_TIME' => 1466586479
+]
+2016-06-22 11:12:02 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:155
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-22 11:12:02 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '50571'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466586722.392
+    'REQUEST_TIME' => 1466586722
+]
+2016-06-22 11:12:06 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:155
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-22 11:12:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '50572'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466586726.723
+    'REQUEST_TIME' => 1466586726
+]
+2016-06-22 11:12:18 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: model' in C:\xampp\htdocs\Quranku\views\site\index.php:20
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\views\site\index.php(20): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\Quranku\controllers\SiteController.php(62): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\SiteController->actionIndex('')
+#7 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-06-22 11:12:18 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=b40eac3b02be2ce99c6e17a6b7a588763bb0faeaaa61eaf5fb3fe84560528f29a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ZNznjsbBOnXb-ZW4AiBabkhUJOSohK4-%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '50574'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466586738.155
+    'REQUEST_TIME' => 1466586738
+]
+2016-06-23 08:35:17 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in C:\xampp\htdocs\Quranku\views\site\surah.php:18
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\views\site\surah.php(18): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('surah', Array, Object(app\controllers\SiteController))
+#5 C:\xampp\htdocs\Quranku\controllers\SiteController.php(76): yii\base\Controller->render('surah', Array)
+#6 [internal function]: app\controllers\SiteController->actionIndex('rasul')
+#7 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2016-06-23 08:35:14 [::1][-][-][info][application] $_GET = [
+    'q' => 'rasul'
+]
+
+$_COOKIE = [
+    '_csrf' => '4f7afc3b6ddef64be15292464d1e0229d378a850264f64a71215ea493e0090cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Y5I2pjDMyboq-UHuHvNJ1xuhTpEeoTwO\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4f7afc3b6ddef64be15292464d1e0229d378a850264f64a71215ea493e0090cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y5I2pjDMyboq-UHuHvNJ1xuhTpEeoTwO%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '60384'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=rasul'
+    'REQUEST_URI' => '/Quranku/web/index.php?q=rasul'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466663714.35
+    'REQUEST_TIME' => 1466663714
+]
+2016-06-23 08:36:15 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW)' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:75
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 08:36:15 [::1][-][-][info][application] $_GET = [
+    'q' => 'rasul'
+]
+
+$_COOKIE = [
+    '_csrf' => '4f7afc3b6ddef64be15292464d1e0229d378a850264f64a71215ea493e0090cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Y5I2pjDMyboq-UHuHvNJ1xuhTpEeoTwO\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4f7afc3b6ddef64be15292464d1e0229d378a850264f64a71215ea493e0090cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y5I2pjDMyboq-UHuHvNJ1xuhTpEeoTwO%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '60392'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=rasul'
+    'REQUEST_URI' => '/Quranku/web/index.php?q=rasul'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466663775.565
+    'REQUEST_TIME' => 1466663775
+]
+2016-06-23 08:37:09 [::1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'verseID' in order clause is ambiguous' in C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#5 C:\xampp\htdocs\Quranku\controllers\SiteController.php(75): yii\db\Query->count()
+#6 [internal function]: app\controllers\SiteController->actionIndex('<span class="st...')
+#7 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'verseID' in order clause is ambiguous
+The SQL being executed was: SELECT COUNT(*) FROM `quran` INNER JOIN `quranindonesia` ON quranindonesia.SuraID=quran.SuraID and quranindonesia.VerseID=quran.VerseID  INNER JOIN `DaftarSurat` ON DaftarSurat.Index=quran.SuraID WHERE `quranindonesia`.`AyahText` LIKE '%rasul%' ORDER BY `verseID`' in C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#5 C:\xampp\htdocs\Quranku\controllers\SiteController.php(75): yii\db\Query->count()
+#6 [internal function]: app\controllers\SiteController->actionIndex('<span class="st...')
+#7 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[<span class="s...')
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'verseID' in order clause is ambiguous
+)
+
+2016-06-23 08:37:07 [::1][-][-][info][application] $_GET = [
+    'q' => 'rasul'
+]
+
+$_COOKIE = [
+    '_csrf' => '4f7afc3b6ddef64be15292464d1e0229d378a850264f64a71215ea493e0090cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Y5I2pjDMyboq-UHuHvNJ1xuhTpEeoTwO\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4f7afc3b6ddef64be15292464d1e0229d378a850264f64a71215ea493e0090cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y5I2pjDMyboq-UHuHvNJ1xuhTpEeoTwO%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '60394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=rasul'
+    'REQUEST_URI' => '/Quranku/web/index.php?q=rasul'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466663827.529
+    'REQUEST_TIME' => 1466663827
+]
+2016-06-23 08:37:48 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '>'' in C:\xampp\htdocs\Quranku\views\site\surah.php:18
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 08:37:45 [::1][-][-][info][application] $_GET = [
+    'q' => 'rasul'
+]
+
+$_COOKIE = [
+    '_csrf' => '4f7afc3b6ddef64be15292464d1e0229d378a850264f64a71215ea493e0090cfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Y5I2pjDMyboq-UHuHvNJ1xuhTpEeoTwO\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=4f7afc3b6ddef64be15292464d1e0229d378a850264f64a71215ea493e0090cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Y5I2pjDMyboq-UHuHvNJ1xuhTpEeoTwO%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '60398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=rasul'
+    'REQUEST_URI' => '/Quranku/web/index.php?q=rasul'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466663865.858
+    'REQUEST_TIME' => 1466663865
+]
+2016-06-23 09:03:55 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'if' (T_IF)' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:03:55 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Quranku/web/'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53341'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665435.64
+    'REQUEST_TIME' => 1466665435
+]
+2016-06-23 09:04:13 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'if' (T_IF)' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:04:13 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53343'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665453.283
+    'REQUEST_TIME' => 1466665453
+]
+2016-06-23 09:04:15 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'if' (T_IF)' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:59
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:04:15 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53344'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665455.374
+    'REQUEST_TIME' => 1466665455
+]
+2016-06-23 09:04:53 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''=>$DaftarSurat,'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:81
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:04:53 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53348'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665493.874
+    'REQUEST_TIME' => 1466665493
+]
+2016-06-23 09:04:56 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''=>$DaftarSurat,'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:81
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:04:55 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53349'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665495.996
+    'REQUEST_TIME' => 1466665495
+]
+2016-06-23 09:05:18 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\DynamicModel' not found' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:57
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:05:18 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53351'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665518.304
+    'REQUEST_TIME' => 1466665518
+]
+2016-06-23 09:08:32 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<'' in C:\xampp\htdocs\Quranku\views\site\index.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:08:32 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53367'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665712.899
+    'REQUEST_TIME' => 1466665712
+]
+2016-06-23 09:08:54 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in C:\xampp\htdocs\Quranku\views\site\index.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:08:54 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53372'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665734.349
+    'REQUEST_TIME' => 1466665734
+]
+2016-06-23 09:08:56 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in C:\xampp\htdocs\Quranku\views\site\index.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:08:56 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53374'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665736.424
+    'REQUEST_TIME' => 1466665736
+]
+2016-06-23 09:09:44 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: q' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:66
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\controllers\SiteController.php(66): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 [internal function]: app\controllers\SiteController->actionIndex()
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#5 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#6 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2016-06-23 09:09:44 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'NHU5bzhGUzhWMkgLUhQxW3VMDwReESdNXD9rXUgvZm18PAs7THF.QA=='
+    'DynamicModel' => [
+        'q' => ''
+    ]
+    'contact-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Quranku/web/index.php'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '103'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53384'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466665784.565
+    'REQUEST_TIME' => 1466665784
+]
+2016-06-23 09:16:47 [::1][-][-][error][yii\base\ErrorException:256] exception 'yii\base\ErrorException' with message 'Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\base\DynamicModel::q' 
+
+in C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Component.php:143
+
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\DynamicModel.php(86): yii\base\Component->__get('q')
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\helpers\BaseHtml.php(2068): yii\base\DynamicModel->__get('q')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\helpers\BaseHtml.php(1243): yii\helpers\BaseHtml::getAttributeValue(Object(yii\base\DynamicModel), 'q')
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\helpers\BaseHtml.php(1292): yii\helpers\BaseHtml::activeInput('text', Object(yii\base\DynamicModel), 'q', Array)
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\widgets\ActiveField.php(362): yii\helpers\BaseHtml::activeTextInput(Object(yii\base\DynamicModel), 'q', Array)
+#5 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\widgets\ActiveField.php(190): yii\widgets\ActiveField->textInput()
+#6 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\widgets\ActiveField.php(162): yii\widgets\ActiveField->render()
+#7 C:\xampp\htdocs\Quranku\views\site\index.php(17): yii\widgets\ActiveField->__toString()
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#12 C:\xampp\htdocs\Quranku\controllers\SiteController.php(83): yii\base\Controller->render('index', Array)
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#17 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#18 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#20 {main}' in C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError('<span class="nu...', '<span class="st...', '<span class="st...', '<span class="nu...', '...')
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\ErrorHandler.php(299): trigger_error('<span class="st...', '<span class="nu...')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\widgets\ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 C:\xampp\htdocs\Quranku\views\site\index.php(17): yii\widgets\ActiveField->__toString()
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#6 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(app\controllers\SiteController))
+#7 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('<span class="st...', '[<span class="s...', Object(app\controllers\SiteController))
+#8 C:\xampp\htdocs\Quranku\controllers\SiteController.php(83): yii\base\Controller->render('<span class="st...', '[<span class="s...')
+#9 [internal function]: app\controllers\SiteController->actionIndex()
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[]')
+#12 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[]')
+#13 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#14 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#16 {main}
+    in C:\xampp\htdocs\Quranku\views\site\index.php:17
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:83
+2016-06-23 09:16:47 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53482'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466666207.71
+    'REQUEST_TIME' => 1466666207
+]
+2016-06-23 09:25:58 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '&&' (T_BOOLEAN_AND)' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:60
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:25:58 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Quranku/web/index.php'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53548'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466666758.532
+    'REQUEST_TIME' => 1466666758
+]
+2016-06-23 09:26:27 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined function app\controllers\load()' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:60
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-23 09:26:27 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53550'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466666787.766
+    'REQUEST_TIME' => 1466666787
+]
+2016-06-23 09:34:21 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: Search' in C:\xampp\htdocs\Quranku\controllers\SiteController.php:62
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\controllers\SiteController.php(62): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 [internal function]: app\controllers\SiteController->actionIndex()
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#5 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#6 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2016-06-23 09:34:21 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'VDFBNHhXa1Q2djBQEgUJNxUId18eAB8hPHsTBgg.XgEceHNgDGBGLA=='
+    'DynamicModel' => [
+        'Search' => 'ibrahim'
+    ]
+    'search-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/Quranku/web/index.php'
+    'HTTP_COOKIE' => '_csrf=0e2ad3cbcd213b6343b409d4577153b2f5531fb0c81bc4e02c8e7377f131d71ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bGqdjRbcA96kfWtuhJR2pi5UHI2Tt7-x%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '114'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '53712'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/index.php'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466667261.451
+    'REQUEST_TIME' => 1466667261
+]
+2016-06-23 09:46:19 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class Require does not exist' in C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\di\Container.php:417
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\di\Container.php(417): ReflectionClass->__construct('Require')
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\di\Container.php(360): yii\di\Container->getDependencies('Require')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('Require', Array, Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('Require', Array, Array)
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\validators\Validator.php(209): yii\BaseYii::createObject(Array)
+#5 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\DynamicModel.php(158): yii\validators\Validator::createValidator('Require', Object(yii\base\DynamicModel), Array, Array)
+#6 C:\xampp\htdocs\Quranku\controllers\SiteController.php(59): yii\base\DynamicModel->addRule(Array, 'Require')
+#7 [internal function]: app\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-06-23 09:46:19 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '61079'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466667979.309
+    'REQUEST_TIME' => 1466667979
+]
+2016-06-23 09:46:46 [::1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class Require does not exist' in C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\di\Container.php:417
+Stack trace:
+#0 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\di\Container.php(417): ReflectionClass->__construct('Require')
+#1 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\di\Container.php(360): yii\di\Container->getDependencies('Require')
+#2 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('Require', Array, Array)
+#3 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('Require', Array, Array)
+#4 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\validators\Validator.php(209): yii\BaseYii::createObject(Array)
+#5 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\DynamicModel.php(158): yii\validators\Validator::createValidator('Require', Object(yii\base\DynamicModel), Array, Array)
+#6 C:\xampp\htdocs\Quranku\controllers\SiteController.php(59): yii\base\DynamicModel->addRule(Array, 'Require')
+#7 [internal function]: app\controllers\SiteController->actionIndex()
+#8 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('', Array)
+#11 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#12 C:\xampp\htdocs\Quranku\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\Quranku\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-06-23 09:46:46 [::1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '61082'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Quranku/web/'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466668006.547
+    'REQUEST_TIME' => 1466668006
+]
+2016-06-24 12:08:16 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-24 12:08:16 [10.0.1.1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1399'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466762896.632
+    'REQUEST_TIME' => 1466762896
+]
+2016-06-24 12:08:33 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:104
+2016-06-24 12:08:32 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '4'
+]
+
+$_COOKIE = [
+    '_csrf' => '5135273faa95c2d33e93633140aef55866c7bd114e397465acfec357ae19375ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"YirwTA3h9wMflasp-qq-qYIweTG41Wpd\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'id-ID,id;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=5135273faa95c2d33e93633140aef55866c7bd114e397465acfec357ae19375ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22YirwTA3h9wMflasp-qq-qYIweTG41Wpd%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1417'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=4'
+    'REQUEST_URI' => '/quranku/web/index.php?r=site%2Fsurah&noSurah=4'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466762912.934
+    'REQUEST_TIME' => 1466762912
+]
+2016-06-25 03:59:51 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 03:59:51 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+    'DaftarSurat/index' => ''
+    'page' => '1'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1402'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466819991.845
+    'REQUEST_TIME' => 1466819991
+]
+2016-06-25 04:00:27 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 04:00:27 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+    'DaftarSurat/index' => ''
+    'page' => '1'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1454'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466820027.522
+    'REQUEST_TIME' => 1466820027
+]
+2016-06-25 04:11:50 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:104
+2016-06-25 04:11:49 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://10.0.1.100/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1902'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=3'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Fsurah&noSurah=3'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466820709.93
+    'REQUEST_TIME' => 1466820709
+]
+2016-06-25 04:11:50 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:104
+2016-06-25 04:11:49 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://10.0.1.100/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1903'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=3'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Fsurah&noSurah=3'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466820709.992
+    'REQUEST_TIME' => 1466820709
+]
+2016-06-25 04:11:50 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:104
+2016-06-25 04:11:50 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '3'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://10.0.1.100/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1904'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=3'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Fsurah&noSurah=3'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466820710.039
+    'REQUEST_TIME' => 1466820710
+]
+2016-06-25 04:11:55 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:104
+2016-06-25 04:11:54 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '3'
+    'page' => '4'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://10.0.1.100/Quranku/web/index.php?r=site%2Fsurah&noSurah=3'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1904'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=3&page=4'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Fsurah&noSurah=3&page=4'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466820714.547
+    'REQUEST_TIME' => 1466820714
+]
+2016-06-25 04:12:01 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:104
+2016-06-25 04:11:59 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '3'
+    'page' => '5'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://10.0.1.100/Quranku/web/index.php?r=site%2Fsurah&noSurah=3&page=4'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1904'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=3&page=5'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Fsurah&noSurah=3&page=5'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466820719.087
+    'REQUEST_TIME' => 1466820719
+]
+2016-06-25 04:12:01 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:104
+2016-06-25 04:12:01 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '3'
+    'page' => '5'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://10.0.1.100/Quranku/web/index.php?r=site%2Fsurah&noSurah=3&page=4'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '1922'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=3&page=5'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Fsurah&noSurah=3&page=5'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466820721.365
+    'REQUEST_TIME' => 1466820721
+]
+2016-06-25 06:44:03 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 06:44:03 [10.0.1.1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '49433'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466829843.19
+    'REQUEST_TIME' => 1466829843
+]
+2016-06-25 06:44:57 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 06:44:57 [10.0.1.1][-][-][info][application] $_GET = [
+    'q' => 'Maryam'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f29f61f62c483ee34bd95847ad8073e22f98773bb9de21ba507e6947a828fbd5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SILsEwgKW27NMOcV5Jqs0Oc0ZhJDOije\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=f29f61f62c483ee34bd95847ad8073e22f98773bb9de21ba507e6947a828fbd5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SILsEwgKW27NMOcV5Jqs0Oc0ZhJDOije%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '47623'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'q=Maryam'
+    'REQUEST_URI' => '/quranku/web/?q=Maryam'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466829897.369
+    'REQUEST_TIME' => 1466829897
+]
+2016-06-25 06:45:12 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:77
+2016-06-25 06:45:11 [10.0.1.1][-][-][info][application] $_GET = [
+    'q' => 'Maryam'
+]
+
+$_POST = [
+    '_csrf' => 'b2Z4MUM3VkQ8LzRCBkAxDzhUT38OeDUSWiwJQnN4NXQ1DjJ1DF48IQ=='
+    'DynamicModel' => [
+        'Search' => 'Maryam'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'f29f61f62c483ee34bd95847ad8073e22f98773bb9de21ba507e6947a828fbd5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"SILsEwgKW27NMOcV5Jqs0Oc0ZhJDOije\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '98'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://10.0.1.100'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/?q=Maryam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=f29f61f62c483ee34bd95847ad8073e22f98773bb9de21ba507e6947a828fbd5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SILsEwgKW27NMOcV5Jqs0Oc0ZhJDOije%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '47629'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'q=Maryam'
+    'REQUEST_URI' => '/quranku/web/?q=Maryam'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466829911.503
+    'REQUEST_TIME' => 1466829911
+]
+2016-06-25 07:39:58 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 07:39:57 [10.0.1.1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/?q=Maryam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '47884'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466833197.961
+    'REQUEST_TIME' => 1466833197
+]
+2016-06-25 07:40:18 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:77
+2016-06-25 07:40:17 [10.0.1.1][-][-][info][application] $_POST = [
+    '_csrf' => 'OHlYdmVHbUxMLmgkUzQ7HFExaxQMahwACBpsJgMqD3RMGjEpPwMACQ=='
+    'DynamicModel' => [
+        'Search' => 'Saleh'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '97'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://10.0.1.100'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '47909'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466833217.336
+    'REQUEST_TIME' => 1466833217
+]
+2016-06-25 07:40:27 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 07:40:27 [10.0.1.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '47924'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466833227.195
+    'REQUEST_TIME' => 1466833227
+]
+2016-06-25 07:40:43 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:77
+2016-06-25 07:40:42 [10.0.1.1][-][-][info][application] $_POST = [
+    '_csrf' => 'S0I4RUZzUko/FQgXcAAEGiIKCycvXiMGeyEMFSAeMHI/IVEaHDc/Dw=='
+    'DynamicModel' => [
+        'Search' => 'Puasa'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '103'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://10.0.1.100'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '47941'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466833242.639
+    'REQUEST_TIME' => 1466833242
+]
+2016-06-25 07:41:44 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 07:41:44 [10.0.1.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '48018'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466833304.618
+    'REQUEST_TIME' => 1466833304
+]
+2016-06-25 07:41:45 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 07:41:45 [10.0.1.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '48018'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466833305.039
+    'REQUEST_TIME' => 1466833305
+]
+2016-06-25 07:41:53 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:104
+2016-06-25 07:41:52 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/surah'
+    'noSurah' => '9'
+]
+
+$_COOKIE = [
+    '_csrf' => 'ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '48029'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsurah&noSurah=9'
+    'REQUEST_URI' => '/quranku/web/index.php?r=site%2Fsurah&noSurah=9'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466833312.231
+    'REQUEST_TIME' => 1466833312
+]
+2016-06-25 07:43:35 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 07:43:35 [10.0.1.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php?r=site%2Fsurah&noSurah=9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=ea18e1b6929525dbc72a02bac9b41b3bfd9bcc7d4789d762bdd881e2134de174a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tW0R6sVPiH3bi-qL0c4Pfmb8tci_ZDmE%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '48100'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466833415.628
+    'REQUEST_TIME' => 1466833415
+]
+2016-06-25 08:13:10 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 08:13:10 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+    'DaftarSurat/index' => ''
+    'page' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '2851'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466835190.614
+    'REQUEST_TIME' => 1466835190
+]
+2016-06-25 08:14:40 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 08:14:40 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+    'DaftarSurat/index' => ''
+    'page' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '3020'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466835280.673
+    'REQUEST_TIME' => 1466835280
+]
+2016-06-25 08:15:02 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 08:15:02 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+    'DaftarSurat/index' => ''
+    'page' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '3034'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466835302.264
+    'REQUEST_TIME' => 1466835302
+]
+2016-06-25 08:15:06 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:76
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:86
+2016-06-25 08:15:06 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+    'DaftarSurat/index' => ''
+    'page' => '1'
+]
+
+$_COOKIE = [
+    '_csrf' => '0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 5.1; rv:47.0) Gecko/20100101 Firefox/47.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf=0168a561987ce20df612643d01cad413447d101117f0e3d96e9e151b69c4947ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cSjR6W2t48Xv3MODY2FRV266DhDc0Z3p%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '3034'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'REQUEST_URI' => '/Quranku/web/index.php?r=site%2Findex&DaftarSurat%2Findex=&page=1'
+    'SCRIPT_NAME' => '/Quranku/web/index.php'
+    'PHP_SELF' => '/Quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1466835306.741
+    'REQUEST_TIME' => 1466835306
+]

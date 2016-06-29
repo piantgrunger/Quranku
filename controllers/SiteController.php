@@ -6,6 +6,7 @@ use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
+use yii\base\DynamicModel;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\DaftarSurat;
@@ -52,17 +53,17 @@ class SiteController extends Controller
         ];
     }
 
-    public function actionIndex($q="")
+    public function actionIndex()
     {
-        if ($q=="")
-        {     
-         $Query = DaftarSurat::find();
-         $pagination = new Pagination(['defaultPageSize'=>10,'totalCount'=>$Query->count(),]);
-         $DaftarSurat = $Query->orderBy('index')->offset($pagination->offset)->limit($pagination->limit)->all();
-         return $this->render('index',['DaftarSurat'=>$DaftarSurat,'pagination'=>$pagination,]);
-        }
-        else {
-          $Query = Quran::find()
+        $model = new DynamicModel(['Search']);
+        $model->addRule(['Search'], 'required');
+        
+        if (($model->load(Yii::$app->request->post())) && ($model->validate()) )      
+        {
+            $q=$model->Search;
+            
+            
+            $Query = Quran::find()
                 ->select('quran.*,quranindonesia.AyahText as Indo,DaftarSurat.surat_indonesia')
                 ->innerJoin('quranindonesia','quranindonesia.SuraID=quran.SuraID and quranindonesia.VerseID=quran.VerseID ')
                  ->innerjoin ('DaftarSurat','DaftarSurat.Index=quran.SuraID')   
@@ -70,14 +71,21 @@ class SiteController extends Controller
       
          
           
-        $pagination =new Pagination(['defaultPageSize'=>20,'totalCount'=>$Query->count(),]);
-        $DaftarAyat = $Query->orderBy('verseID')->offset($pagination->offset)->limit($pagination->limit)->all();
-        $ayat=0;
-        return $this->render('surah',['JumlahAyat'=>$ayat,'NamaSurat'=>"",'Criteria'=>$q,'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
-            
+            $pagination =new Pagination(['defaultPageSize'=>20,'totalCount'=>$Query->count(),]);
+            $DaftarAyat = $Query->orderBy('quran.verseID')->offset($pagination->offset)->limit($pagination->limit)->all();
+            $ayat=$Query->count();
+            return $this->render('surah',['JumlahAyat'=>$ayat,'NamaSurat'=>"",'Criteria'=>$q,'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
+          
             
         }
-    }
+        else
+        {     
+            $Query = DaftarSurat::find();
+            $pagination = new Pagination(['defaultPageSize'=>10,'totalCount'=>$Query->count(),]);
+            $DaftarSurat = $Query->orderBy('index')->offset($pagination->offset)->limit($pagination->limit)->all();
+            return $this->render('index',['model'=>$model,'DaftarSurat'=>$DaftarSurat,'pagination'=>$pagination,]);
+        }
+      }
     
     
     public function  actionSurah($noSurah=1)

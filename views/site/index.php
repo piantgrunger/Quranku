@@ -4,6 +4,7 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\Nav;
+use yii\widgets\ActiveForm;
 
 use yii\widgets\LinkPager;
 use app\controllers\SiteController;
@@ -11,16 +12,26 @@ use app\controllers\SiteController;
 $this->title = 'Al Quran Online dan Terjemahannya';
 ?>
 
-<form method="get">
-<input type="search" placeholder="search" name="q"
+    <div class="col-lg-3">
+        <table class="table-striped" >
+            <tr>
+                <td >
+        <?php $form = ActiveForm::begin(['id' => 'search-form']);?> 
+         <?=$form->field($model, 'Search')->label(''); ?>
+                </td>
+           <td<?="  "?>      </td>
+                <td>
+             <?= Html::submitButton('Search', ['class' => 'btn btn-primary', 'name' => 'search-button']) ?>
+                </td>
+                
+            </tr>
+        </table>
+        <?php ActiveForm::end(); ?>
+    </div
 
-value="<?=isset($_GET['q']) ? Html::encode($_GET['q']) : '' ;
-
-?>" />
 
 
-<input type="submit" value="cari" />
-</form>
+
 
 
 

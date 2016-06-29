@@ -15,7 +15,7 @@ $this->title = 'Al Quran Online dan Terjemahannya';
        <?php if ($NamaSurat!=""){  ?>
         <h2>Al Quran <?=$NamaSurat;?>( <?=$JumlahAyat;?> Ayat ) </h2>
        <?php } else {   ?>
-         <h2> Pencarian : <?=$Criteria;?> </h2>
+         <h2> Pencarian : <?=$Criteria;?> ditemukan (<?=$JumlahAyat;?> ayat) </h2>
         
        <?php } ?>
     </div>  

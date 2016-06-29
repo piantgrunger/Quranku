@@ -7,14 +7,18 @@
             <file>file:/C:/xampp/htdocs/Quranku/web/css/site.css</file>
             <file>file:/C:/xampp/htdocs/Quranku/views/layouts/main.php</file>
             <file>file:/C:/xampp/htdocs/Quranku/config/web.php</file>
-            <file>file:/C:/xampp/htdocs/Quranku/models/DaftarSurat.php</file>
             <file>file:/C:/xampp/htdocs/Quranku/controllers/SiteController.php</file>
+            <file>file:/C:/xampp/htdocs/Quranku/models/LoginForm.php</file>
+            <file>file:/C:/xampp/htdocs/Quranku/config/console.php</file>
+            <file>file:/C:/xampp/htdocs/Quranku/models/User.php</file>
+            <file>file:/C:/xampp/htdocs/Quranku/models/DaftarSurat.php</file>
+            <file>file:/C:/xampp/htdocs/Quranku/web/index.php</file>
             <file>file:/C:/xampp/htdocs/Quranku/views/site/login.php</file>
             <file>file:/C:/xampp/htdocs/Quranku/config/params.php</file>
             <file>file:/C:/xampp/htdocs/Quranku/config/db.php</file>
             <file>file:/C:/xampp/htdocs/Quranku/views/site/index.php</file>
             <file>file:/C:/xampp/htdocs/Quranku/views/site/surah.php</file>
-            <file>file:/C:/xampp/htdocs/Quranku/config/console.php</file>
+            <file>file:/C:/xampp/htdocs/Quranku/models/ContactForm.php</file>
         </group>
     </open-files>
 </project-private>
