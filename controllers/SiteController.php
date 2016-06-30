@@ -13,6 +13,7 @@ use app\models\DaftarSurat;
 use yii\data\Pagination;
 use app\models\Quran;
 
+
 class SiteController extends Controller
 {
     
@@ -70,7 +71,6 @@ class SiteController extends Controller
                 ->filterWhere(['Like','quranindonesia.AyahText',  $q]);
       
          
-          
             $pagination =new Pagination(['defaultPageSize'=>20,'totalCount'=>$Query->count(),]);
             $DaftarAyat = $Query->orderBy('quran.verseID')->offset($pagination->offset)->limit($pagination->limit)->all();
             $ayat=$Query->count();
@@ -81,6 +81,7 @@ class SiteController extends Controller
         else
         {     
             $Query = DaftarSurat::find();
+            
             $pagination = new Pagination(['defaultPageSize'=>10,'totalCount'=>$Query->count(),]);
             $DaftarSurat = $Query->orderBy('index')->offset($pagination->offset)->limit($pagination->limit)->all();
             return $this->render('index',['model'=>$model,'DaftarSurat'=>$DaftarSurat,'pagination'=>$pagination,]);

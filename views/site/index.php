@@ -7,6 +7,7 @@ use yii\bootstrap\Nav;
 use yii\widgets\ActiveForm;
 
 use yii\widgets\LinkPager;
+use yii\widgets\Listview;
 use app\controllers\SiteController;
 
 $this->title = 'Al Quran Online dan Terjemahannya';
@@ -64,6 +65,6 @@ $this->title = 'Al Quran Online dan Terjemahannya';
         ?>
         
             <?= LinkPager::widget(['pagination' => $pagination]) ?>
-        
+    
     </div>
 </div>
