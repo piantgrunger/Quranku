@@ -25,5 +25,18 @@
      return '<span class="arabic_number">'.$temp.'</span>';
     }
 
+   public  function GetSurahCode(){           
+     $jum_karakter = strlen($this->VerseID);
+     $jum_karakter1 = strlen($this->SuraID);
+     $char = "";
+     for($i = 0; $i < 3-$jum_karakter; $i++){
+        $char .= '0';
+    }
+    $char1 = "";
+     for($i = 0; $i < 3-$jum_karakter1; $i++){
+        $char1 .= '0';
+    }
+     return $char1.$this->SuraID.$char.$this->VerseID;
+    }
 
  } 

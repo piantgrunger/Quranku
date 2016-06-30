@@ -23,6 +23,10 @@ class ComposerStaticInit4054995c0ecb3666eaef5f48b02adb3b
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
         ),
+        'k' => 
+        array (
+            'kop\\y2sp\\' => 9,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -69,6 +73,10 @@ class ComposerStaticInit4054995c0ecb3666eaef5f48b02adb3b
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'kop\\y2sp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kop/yii2-scroll-pager',
         ),
         'cebe\\markdown\\' => 
         array (

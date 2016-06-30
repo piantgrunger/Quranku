@@ -14,6 +14,7 @@ return array(
     'yii\\codeception\\' => array($vendorDir . '/yiisoft/yii2-codeception'),
     'yii\\bootstrap\\' => array($vendorDir . '/yiisoft/yii2-bootstrap'),
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
+    'kop\\y2sp\\' => array($vendorDir . '/kop/yii2-scroll-pager'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
     'bigpaulie\\social\\share\\' => array($vendorDir . '/bigpaulie/yii2-social-share/src'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),

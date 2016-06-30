@@ -28,15 +28,19 @@ $this->title = 'Al Quran Online dan Terjemahannya';
             <h3 class="arabic">
         <?php echo "<p align='Right'> ".$Ayat->VerseArab()."   $Ayat->AyahText  </p>     "; ?>
             </h3>
+    
+<audio controls>
+    <source src="http://www.everyayah.com/data/Ali_Jaber_64kbps/<?php 
+    echo $Ayat->GetSurahCode().".mp3";
+    ?>" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+            
         <?php echo "<p align='Left'>  $Ayat->VerseID   ".str_replace($Criteria, "<B>$Criteria</B>",$Ayat->Indo)."    ";
                        if ($Ayat->surat_indonesia!=""){
                            echo "(  $Ayat->surat_indonesia    :  $Ayat->VerseID    )";
-                           
                        }
-            
-               echo "</p>";
-                
-                ; ?>
+         echo "</p>";?>
         <br>
                 
         <?php
