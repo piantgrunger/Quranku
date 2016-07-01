@@ -26,16 +26,6 @@ AppAsset::register($this);
 
 <div class="wrap">
     
-<form method="get">
-<input type="search" placeholder="search" name="q"
-
-value="<?=isset($_GET['q']) ? Html::encode($_GET['q']) : '' ;
-
-?>" />
-
-
-<input type="submit" value="cari" />
-</form>
 
     
     <?php
