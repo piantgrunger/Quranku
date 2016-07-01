@@ -17,7 +17,10 @@ $this->title = 'Al Quran Online dan Terjemahannya';
         <table class="table-striped" >
             <tr>
                 <td >
-        <?php $form = ActiveForm::begin(['id' => 'search-form']);?> 
+        <?php $form = ActiveForm::begin([
+        'options' => ['data' => ['pjax' => true]],
+        // more ActiveForm options
+    ]);?> 
          <?=$form->field($model, 'Search')->label(''); ?>
                 </td>
            <td<?="  "?>      </td>
@@ -46,25 +49,35 @@ $this->title = 'Al Quran Online dan Terjemahannya';
 
         <p class="media-heading">Daftar Surat : </p>
           
+           <table class="table-striped" >
+               <tr> 
         <?php
         $no=1;
         foreach($DaftarSurat as $Surah ):
-        
+          echo  "<td>";
             ?>   
         <?php 
         echo Nav::widget([
         'items' => [
-            ['label' => "$Surah->surat_indonesia - ' $Surah->arti ' ($Surah->jumlah_ayat Ayat)", 'url' => ['site/surah','noSurah'=>$Surah->index]],
+            ['label' => "$Surah->index . $Surah->surat_indonesia ($Surah->jumlah_ayat Ayat)", 'url' => ['site/surah','noSurah'=>$Surah->index]],
             
         ]]);
         ?>
                    
         <?php
+        echo "</td>";
+       if ($no % 6 ===0 &&($no!==0) )  
+       {    
+        echo "</tr>";
+        echo "<tr>";
+       }
         $no++;
         endforeach;      
         ?>
-        
-            <?= LinkPager::widget(['pagination' => $pagination]) ?>
+           </table>       
+                <?= LinkPager::widget(['pagination' => $pagination]) ?>
+    
+           
     
     </div>
 </div>

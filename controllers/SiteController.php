@@ -59,10 +59,13 @@ class SiteController extends Controller
         $model = new DynamicModel(['Search']);
         $model->addRule(['Search'], 'required');
         
+        
+        
         if (($model->load(Yii::$app->request->post())) && ($model->validate()) )      
         {
             $q=$model->Search;
             
+            $Reciter = 'Ali_Jaber_64kbps';
             
             $Query = Quran::find()
                 ->select('quran.*,quranindonesia.AyahText as Indo,DaftarSurat.surat_indonesia')
@@ -70,11 +73,16 @@ class SiteController extends Controller
                  ->innerjoin ('DaftarSurat','DaftarSurat.Index=quran.SuraID')   
                 ->filterWhere(['Like','quranindonesia.AyahText',  $q]);
       
-         
+           $model1 = new DynamicModel(['Reciter']);
+           $model1->addRule(['Reciter'], 'required');
+           if (($model1->load(Yii::$app->request->post())) && ($model1->validate()) )      
+            {
+              $Reciter=$model1->Reciter;
+            }
             $pagination =new Pagination(['defaultPageSize'=>20,'totalCount'=>$Query->count(),]);
             $DaftarAyat = $Query->orderBy('quran.verseID')->offset($pagination->offset)->limit($pagination->limit)->all();
             $ayat=$Query->count();
-            return $this->render('surah',['JumlahAyat'=>$ayat,'NamaSurat'=>"",'Criteria'=>$q,'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
+            return $this->render('surah',['Reciter'=>$Reciter ,'model1'=>$model1,'JumlahAyat'=>$ayat,'NamaSurat'=>"",'Criteria'=>$q,'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
           
             
         }
@@ -82,15 +90,18 @@ class SiteController extends Controller
         {     
             $Query = DaftarSurat::find();
             
-            $pagination = new Pagination(['defaultPageSize'=>10,'totalCount'=>$Query->count(),]);
+            $pagination = new Pagination(['defaultPageSize'=>24,'totalCount'=>$Query->count(),]);
             $DaftarSurat = $Query->orderBy('index')->offset($pagination->offset)->limit($pagination->limit)->all();
-            return $this->render('index',['model'=>$model,'DaftarSurat'=>$DaftarSurat,'pagination'=>$pagination,]);
+            return $this->render('index',['model'=>$model,'DaftarSurat'=>$DaftarSurat,'pagination'=>$pagination]);
         }
       }
     
     
     public function  actionSurah($noSurah=1)
     {
+      
+        $Reciter = 'Ali_Jaber_64kbps';
+        
         $Query = Quran::find()
                 ->select('quran.*,quranindonesia.AyahText as Indo')
                 ->innerJoin('quranindonesia','quranindonesia.SuraID=quran.SuraID and quranindonesia.VerseID=quran.VerseID ')
@@ -100,9 +111,16 @@ class SiteController extends Controller
         $NamaSurat = $Surat -> surat_indonesia;
         $ayat = $Surat -> jumlah_ayat;
         
+        $model1 = new DynamicModel(['Reciter']);
+         $model1->addRule(['Reciter'], 'required');
+        if (($model1->load(Yii::$app->request->post())) && ($model1->validate()) )      
+        {
+              $Reciter=$model1->Reciter;
+        } 
+         
         $pagination =new Pagination(['defaultPageSize'=>20,'totalCount'=>$Query->count(),]);
         $DaftarAyat = $Query->orderBy('verseID')->offset($pagination->offset)->limit($pagination->limit)->all();
-        return $this->render('surah',['JumlahAyat'=>$ayat,'NamaSurat'=>$NamaSurat,'Criteria'=>"",'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
+        return $this->render('surah',['Reciter'=>$Reciter,'model1'=>$model1,'JumlahAyat'=>$ayat,'NamaSurat'=>$NamaSurat,'Criteria'=>"",'DaftarAyat'=>$DaftarAyat,'pagination'=>$pagination,]);
          
         
     }        
