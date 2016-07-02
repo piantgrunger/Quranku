@@ -90,7 +90,7 @@ class SiteController extends Controller
         {     
             $Query = DaftarSurat::find();
             
-            $pagination = new Pagination(['defaultPageSize'=>24,'totalCount'=>$Query->count(),]);
+            $pagination = new Pagination(['defaultPageSize'=>15,'totalCount'=>$Query->count(),]);
             $DaftarSurat = $Query->orderBy('index')->offset($pagination->offset)->limit($pagination->limit)->all();
             return $this->render('index',['model'=>$model,'DaftarSurat'=>$DaftarSurat,'pagination'=>$pagination]);
         }

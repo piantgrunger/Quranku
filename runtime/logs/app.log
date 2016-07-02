@@ -17863,3 +17863,159 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1467355726.763
     'REQUEST_TIME' => 1467355726
 ]
+2016-07-02 06:35:48 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:66
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:95
+2016-07-02 06:35:48 [10.0.1.1][-][-][info][application] $_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php?r=site%2Fsurah&noSurah=40'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '42282'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1467434148.108
+    'REQUEST_TIME' => 1467434148
+]
+2016-07-02 06:37:32 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:66
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:95
+2016-07-02 06:37:32 [10.0.1.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b11d8d3927ba328ed6098668a9b6edd351170ffd293ba710f0e5e81583688d3ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vsh8nbdx_suMlyuErVbKqC0lJG_01Gyq\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b11d8d3927ba328ed6098668a9b6edd351170ffd293ba710f0e5e81583688d3ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vsh8nbdx_suMlyuErVbKqC0lJG_01Gyq%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '42349'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/quranku/web/index.php'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1467434251.973
+    'REQUEST_TIME' => 1467434251
+]
+2016-07-02 06:37:40 [10.0.1.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.0.1.1
+    in C:\xampp\htdocs\Quranku\views\layouts\main.php:66
+    in C:\xampp\htdocs\Quranku\controllers\SiteController.php:95
+2016-07-02 06:37:39 [10.0.1.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+    'page' => '8'
+]
+
+$_COOKIE = [
+    '_csrf' => 'b11d8d3927ba328ed6098668a9b6edd351170ffd293ba710f0e5e81583688d3ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"vsh8nbdx_suMlyuErVbKqC0lJG_01Gyq\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => '10.0.1.100'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; Android 4.3; C5302 Build/12.1.A.1.205) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.83 Mobile Safari/537.36'
+    'HTTP_REFERER' => 'http://10.0.1.100/quranku/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b11d8d3927ba328ed6098668a9b6edd351170ffd293ba710f0e5e81583688d3ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vsh8nbdx_suMlyuErVbKqC0lJG_01Gyq%22%3B%7D'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php\\;C:\\composer'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35 Server at 10.0.1.100 Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.5.35'
+    'SERVER_NAME' => '10.0.1.100'
+    'SERVER_ADDR' => '10.0.1.100'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '10.0.1.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Quranku/web/index.php'
+    'REMOTE_PORT' => '42353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex&page=8'
+    'REQUEST_URI' => '/quranku/web/index.php?r=site%2Findex&page=8'
+    'SCRIPT_NAME' => '/quranku/web/index.php'
+    'PHP_SELF' => '/quranku/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1467434259.944
+    'REQUEST_TIME' => 1467434259
+]
